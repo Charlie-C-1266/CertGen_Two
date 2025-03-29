@@ -1,4 +1,4 @@
-# Project Name
+# Certificate Generator Tooling Two
 
 A rewrite of the original Certificate Generation Tool.
 
@@ -21,24 +21,17 @@ A rewrite of the original Certificate Generation Tool.
 4. Create a templates folder
     See the README.md in src/templates for instructions around this.
 
-
-
 5. Run the application:
-    ```bash
-    npm start
-    ```
-    or
     ```bash
     python main.py
     ```
+    or
+    select `Generate_Certificates.sh`
 
-## Usage
-
-Provide instructions on how to use the project.
 
 ## Contributing
 
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
+Please feel free to add Issues to the issues tab at https://github.com/Charlie-C-1266/CertGen_Two/issues
 
 ## License
 
