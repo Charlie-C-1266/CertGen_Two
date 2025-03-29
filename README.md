@@ -11,7 +11,7 @@ A rewrite of the original Certificate Generation Tool.
     ```
 2. Navigate to the project directory:
     ```bash
-    cd your-repo
+    cd CERTGEN_TWO
     ```
 3. Install dependencies:
     ```bash
