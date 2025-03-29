@@ -1,0 +1,41 @@
+[MAIN]
+ignore=.git
+py-version=3.10
+
+[MESSAGES CONTROL]
+disable=locally-disabled
+
+[REPORTS]
+msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
+
+[VARIABLES]
+
+[BASIC]
+no-docstring-rgx=__.*__
+module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+const-rgx=(([A-Z_][A-Z0-9_]*)|([a-z_][a-z0-9_]*)|(__.*__))$
+class-rgx=^_{0,2}([A-Z][0-9]*[a-z0-9]+)+$
+function-rgx=^_{0,2}[a-zA-Z0-9][a-zA-Z0-9_]*$
+method-rgx=^_{0,2}[a-z][a-z_]*$
+attr-rgx=^_{0,2}[a-z][a-z_]*$
+argument-rgx=[a-z][a-z_]*$
+variable-rgx=(([a-z_][a-z0-9_]*$)|([A-Z_][A-Z0-9_]*$))
+inlinevar-rgx=[a-z_][a-z0-9_]*$
+
+[CLASSES]
+valid-metaclass-classmethod-first-arg=mcs
+
+[TYPECHECK]
+
+[DESIGN]
+
+[IMPORTS]
+deprecated-modules=regsub,string,TERMIOS,Bastion,rexec,getopt
+
+[FORMAT]
+max-line-length=120
+max-module-lines=1000
+indent-string='    '
+
+[MISCELLANEOUS]
+notes=FIXME,XXX,TODO

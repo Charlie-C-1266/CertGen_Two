@@ -1,0 +1,8 @@
+.venv
+src/templates
+__pycache__/
+Certificates/
+
+*.xlsx
+*.docx
+*.txt
